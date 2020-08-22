@@ -208,7 +208,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FeedTransportAnt (2)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8975690504368707414, guid: 613b5cf222d6f3a4195e7a2bbb4b4ff7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 613b5cf222d6f3a4195e7a2bbb4b4ff7, type: 3}
 --- !u!1 &322648040
 GameObject:
@@ -661,7 +662,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: FeedTransportAnt (1)
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8975690504368707414, guid: 613b5cf222d6f3a4195e7a2bbb4b4ff7, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 613b5cf222d6f3a4195e7a2bbb4b4ff7, type: 3}
 --- !u!1 &1560734714
 GameObject:

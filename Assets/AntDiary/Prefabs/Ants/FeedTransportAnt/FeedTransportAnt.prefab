@@ -11,8 +11,7 @@ GameObject:
   - component: {fileID: 779971442781661764}
   - component: {fileID: 1391518322906311064}
   - component: {fileID: 6132168482414688083}
-  - component: {fileID: -8975690504368707414}
-  - component: {fileID: 6129966079009735475}
+  - component: {fileID: 5314625779531482208}
   m_Layer: 0
   m_Name: FeedTransportAnt
   m_TagString: FeedTransportAnt
@@ -147,7 +146,7 @@ MonoBehaviour:
   m_OptimizeGeometry: 1
   m_EnableTangents: 0
   m_GeometryCached: 0
---- !u!114 &-8975690504368707414
+--- !u!114 &5314625779531482208
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -156,7 +155,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 9222311918125022646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d76f1d7e605df6143a4f9367fc6c8353, type: 3}
+  m_Script: {fileID: 11500000, guid: 62e6a00c2c047ca46b47d845e53b2e6c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   isHoldingFood: 0
@@ -164,21 +163,8 @@ MonoBehaviour:
   targetNest: {x: 0, y: 0}
   targetNestEntrance: {x: 0, y: 0}
   target: {x: 0, y: 0}
-  nowPlace: {x: 0, y: 0}
+  from: {x: 0, y: 0}
   v: []
   i: 0
-  time: 10
+  I: -1
   distance: {x: 0, y: 0}
-  way: {x: 2, y: 2}
---- !u!114 &6129966079009735475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9222311918125022646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7ea91c640d804545acc8d27fec78948, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
